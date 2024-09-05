@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+     color: #f8f6f6;
+     background: url('girl.jpg') no-repeat center center/cover;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 115, 0, 0.712);
+    width: auto;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+.container {
+    
+    margin: 0 auto;
+    
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 115, 0, 0.712);
+}
+
+.header h1 {
+    margin: 0 auto;
+    font-size: 2.5em;
+    color: #faf5f5;
+    background-color: rgb(0, 14, 14);
+    width: 100%;
+    height: 100%;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+
+.skill {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 1%;
+}
+.skill:hover{
+    background: #dbd0db;
+    transform: translateX(5px);
+    color: black;
+}
+
+.skill h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #007BFF;
+}
+
+.skill p {
+    margin: 10px 0 0;
+    font-size: 1.1em;
+}
+h2 {
+    font-size: 250%;
+}
+
+ul {
+    margin-left: 40%;
+    cursor: progress;
+    font-size: x-large;
+    margin-bottom: 70%;
+}
+
+li {
+    color: grey;
+}
+
+li:hover {
+    color:  rgba(255, 115, 0, 0.712);
+    cursor: pointer;
+}
+
+h2, ul, li {
+    display: inline; 
+}
+li {
+    display: inline-block; 
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+}
+
+li a {
+    display: block; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: grey;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgba(255, 115, 0, 0.712);
+    color: white;
+}
+
+

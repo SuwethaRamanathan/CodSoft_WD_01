@@ -1,0 +1,72 @@
+body {
+    background: url('https://e0.pxfuel.com/wallpapers/475/184/desktop-wallpaper-portfolio-background-portfolio-background-portfolio-and-career-portfolio.jpg') no-repeat center center/cover;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 115, 0, 0.712);
+    width: auto;
+    padding: 2%;
+    margin-top: 1%;
+}
+
+.two {
+    margin-top: 500px; 
+}
+
+h2, ul, li {
+    display: inline; 
+}
+
+.one {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5px;
+    color: white;
+}
+
+img {
+    height: 25%;
+    width: 25%;
+    display: inline;
+    margin-top: 5%;
+    border-color: bisque;
+    border-width: 20px;
+    border-style: solid;
+}
+
+h2 {
+    font-size: 250%;
+}
+
+ul {
+    margin-left: 50%;
+    font-size: x-large;
+    margin-bottom: 70%;
+    list-style-type: none; 
+    padding: 0; 
+}
+
+li {
+    display: inline-block; 
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+}
+
+li a {
+    display: block; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: grey;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgba(255, 115, 0, 0.712);
+    color: white;
+}

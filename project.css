@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 115, 0, 0.712);
+    width: auto;
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    background-color: #080000;
+    color: #333;
+    background: url('https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89787.jpg') no-repeat center center/cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);;
+    color:  rgba(255, 115, 0, 0.712);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.projects {
+    display:block;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.project {
+    text-align: center;
+    margin-top: 60px;
+    padding: 30px 50px;
+    background: rgba(0, 0, 0, 0.5);;
+    border-radius: 15px;
+    color: #faf4f4;
+}
+h2 {
+    font-size: 250%;
+}
+
+ul {
+    margin-left: 50%;
+    cursor: progress;
+    font-size: x-large;
+    margin-bottom: 70%;
+}
+
+li {
+    color: grey;
+}
+
+li:hover {
+    color:  rgba(255, 115, 0, 0.712);
+    cursor: pointer;
+}
+
+h2, ul, li {
+    display: inline; 
+}
+
+.project-title {
+    font-size: xx-large;
+    margin-bottom: 1rem;
+    color:rgba(255, 115, 0, 0.712);
+}
+
+.project-description {
+    margin-bottom: 1rem;
+    color: hsl(0, 23%, 97%);
+    font-size: x-large;
+}
+
+.project-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #010c18;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.project-link:hover {
+    background-color: rgba(255, 115, 0, 0.712);
+}
+li {
+    display: inline-block; 
+    margin-bottom: 10px; 
+    margin-right: 10px; 
+}
+
+li a {
+    display: block; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: grey;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+li a:hover {
+    background-color: rgba(255, 115, 0, 0.712);
+    color: white;
+}
+
+
+
